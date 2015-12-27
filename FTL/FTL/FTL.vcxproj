@@ -10,6 +10,18 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="beliche.h" />
+    <ClInclude Include="controloEscudo.h" />
+    <ClInclude Include="maquinas.h" />
+    <ClInclude Include="membroTripulacao.h" />
+    <ClInclude Include="nave.h" />
+    <ClInclude Include="ponte.h" />
+    <ClInclude Include="propulsor.h" />
+    <ClInclude Include="sala.h" />
+    <ClInclude Include="suporteVida.h" />
+    <ClInclude Include="tripulacao.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{87682BD3-671B-44BD-B2D8-CF5023EE213B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,18 +87,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\beliche.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\controloEscudo.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\maquinas.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\membroTripulacao.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\nave.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\ponte.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\propulsor.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\sala.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\suporteVida.h" />
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\tripulacao.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

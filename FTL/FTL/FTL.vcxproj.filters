@@ -15,34 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\beliche.h">
+    <ClInclude Include="beliche.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\controloEscudo.h">
+    <ClInclude Include="controloEscudo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\maquinas.h">
+    <ClInclude Include="maquinas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\membroTripulacao.h">
+    <ClInclude Include="membroTripulacao.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\nave.h">
+    <ClInclude Include="nave.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\ponte.h">
+    <ClInclude Include="ponte.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\propulsor.h">
+    <ClInclude Include="propulsor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\sala.h">
+    <ClInclude Include="sala.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\suporteVida.h">
+    <ClInclude Include="suporteVida.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\FTLPOO\FTLPOO\tripulacao.h">
+    <ClInclude Include="tripulacao.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
