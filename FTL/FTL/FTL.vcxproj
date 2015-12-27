@@ -14,6 +14,7 @@
     <ClInclude Include="beliche.h" />
     <ClInclude Include="consola.h" />
     <ClInclude Include="controloEscudo.h" />
+    <ClInclude Include="interface.h" />
     <ClInclude Include="maquinas.h" />
     <ClInclude Include="membroTripulacao.h" />
     <ClInclude Include="nave.h" />
@@ -27,12 +28,15 @@
     <ClCompile Include="beliche.cpp" />
     <ClCompile Include="consola.cpp" />
     <ClCompile Include="controloEscudo.cpp" />
+    <ClCompile Include="interface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maquinas.cpp" />
+    <ClCompile Include="nave.cpp" />
     <ClCompile Include="ponte.cpp" />
     <ClCompile Include="propulsor.cpp" />
     <ClCompile Include="sala.cpp" />
     <ClCompile Include="suporteVida.cpp" />
+    <ClCompile Include="tripulacao.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{87682BD3-671B-44BD-B2D8-CF5023EE213B}</ProjectGuid>

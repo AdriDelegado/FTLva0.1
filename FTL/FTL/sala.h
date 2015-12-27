@@ -1,6 +1,7 @@
 #pragma once
 #ifndef SALA_H
 #define SALA_H
+
 #include <iostream>
 #include <string>
 #include <vector>

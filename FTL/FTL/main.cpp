@@ -3,20 +3,23 @@
 #include <ostream>
 #include <iostream>
 #include <sstream>
-#include "sala.h"
+#include "nave.h"
 #include "consola.h"
+#include "interface.h"
 using namespace std;
 
 void menuPrincipal();
 void creditos();
+//void iniciarJogo();
 
 int main(){
 	menuPrincipal();
 	return 0;
 }
+
 void menuPrincipal(){
 	Consola c;
-	c.setTextColor(c.BRANCO_CLARO);
+	c.setTextColor(c.AZUL_CLARO);
 	c.setBackgroundColor(c.PRETO);
 	c.gotoxy(10, 10);
 	cout << "INICIAR";
@@ -34,7 +37,8 @@ void menuPrincipal(){
 		tecla = c.getch();
 		if (tecla == c.ENTER){
 			if (y == 10){
-				// INICIA o JOGO
+				c.clrscr();			//limpa o ecra
+				//iniciarJogo();
 			}
 			if (y == 11){
 				// ABRE OS SETTINGS
@@ -106,4 +110,9 @@ void creditos(){
 
 		}
 	}
+
+	//void iniciarJogo(){
+	//	Consola c;
+	//	nave nave = new nave();
+	//}
 }

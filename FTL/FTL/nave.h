@@ -11,10 +11,18 @@ using namespace std;
 
 class nave
 {
-	sala salas[12];
-	tripulacao *numTripulantes;
+	string nome;
+	vector <sala *> rooms;
+	vector <tripulacao *> vTripulacao ;
 public:
-	void desenhaNave(); //??
+	nave();
+	~nave(void);
+	//void desenhaNave(); //??
+	vector <tripulacao *> getTripulacao();
+	vector <sala *> getRooms();
+
+	void setTripulacao(tripulacao & t);
+	void setgeRooms(sala & s);
 
 };
 
