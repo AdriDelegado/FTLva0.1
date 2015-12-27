@@ -13,9 +13,13 @@ class comando
 public:
 	comando(string arg1);
 	comando();
-
-
 	~comando(void);
+
+	//------GET---------
+	string getArg1();
+
+	//------SET---------
+	void setArg1(string sub);
 };
 
 #endif
