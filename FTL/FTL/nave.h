@@ -17,7 +17,6 @@ class nave
 public:
 	nave();
 	~nave(void);
-	//void desenhaNave(); //??
 	vector <tripulacao *> getTripulacao();
 	vector <sala *> getRooms();
 

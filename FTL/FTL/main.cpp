@@ -27,7 +27,7 @@ void menuPrincipal(){
 	cout << "SETTINGS";
 	c.gotoxy(10, 12);
 	cout << "CREDITS" << endl;
-
+	
 	char tecla;
 	
 	int x = 7, y = 10;
@@ -38,7 +38,8 @@ void menuPrincipal(){
 		if (tecla == c.ENTER){
 			if (y == 10){
 				c.clrscr();			//limpa o ecra
-				//iniciarJogo();
+				userInterface s;
+				s.novoJogo();
 			}
 			if (y == 11){
 				// ABRE OS SETTINGS
@@ -111,8 +112,4 @@ void creditos(){
 		}
 	}
 
-	//void iniciarJogo(){
-	//	Consola c;
-	//	nave nave = new nave();
-	//}
 }

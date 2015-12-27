@@ -15,6 +15,8 @@
 #include "ponte.h"
 #include "propulsor.h"
 #include "suporteVida.h"
+#include "consola.h"
+#include "comando.h"
 
 using namespace std;
 
@@ -27,13 +29,15 @@ public:
 	~userInterface(void);
 
 	void novoJogo();
+	void desenhaInterfaceInit(Consola c);
 	void desenhaFundo(int x, int y);
-	void respostasComandos(string comando, string nome);	// recebe os comandos e devolve uma resposta ao ecra de confirmação ou nao
+	void desenhaSpaceShip(nave &n);                             //vai iniciar o desenho da nave
+	void respostasComandos(string introComando, string nome);	// recebe os comandos e devolve uma resposta ao ecra de confirmação ou nao
 	void escreveComando();								//funcao para pedir comandos
 	void desenhaInterfaceInit();						//desenha uma intercafe
 	void limpaComando();								//limpa comandos ??
-	void separaComando(string & comando, Comando & comObj);
-	void trataComando(Comando & comObj, Territorio & m, vector <Populacao*> & pop);
+	/*void separaComando(string & comando, Comando & comObj);
+	void trataComando(Comando & comObj, Territorio & m, vector <Populacao*> & pop);*/
 };
 
 #endif

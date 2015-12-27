@@ -25,22 +25,23 @@ public:
 	~sala(void);
 
 	//------GET---------
-	int getId();
-	int getOxigenio();
-	int getIntegridade();
-	bool getBrecha();
-	bool getFogo();
-	bool getCurtoCircuito();  // o que é cc ?
-	int getNumeroOcupantes();
+	virtual int getId() = 0;
+	virtual int getOxigenio() = 0;
+	virtual int getIntegridade() = 0;
+	virtual bool getBrecha() = 0;
+	virtual bool getFogo() = 0;
+	virtual bool getCurtoCircuito() = 0;  // o que é cc ?
+	virtual int getNumeroOcupantes() = 0;
 	
 	//------SET---------
-	void setId(int id);
-	void setOxigenio(int newOxigenio);
-	void setIntegridade(int newIntegridade);
-	void setBrecha(bool newValorBrecha);
-	void setFogo(bool newValorFogo);
-	void setCurtoCircuito(bool newValorCC);  // o que é cc ?
-	void setNumeroOcupantes(int newValorOcupantes);
+	virtual void setId(int id) = 0;
+	virtual void setOxigenio(int newOxigenio) = 0;
+	virtual void setIntegridade(int newIntegridade) = 0;
+	virtual void setBrecha(bool newValorBrecha) = 0;
+	virtual void setFogo(bool newValorFogo) = 0;
+	virtual void setCurtoCircuito(bool newValorCC) = 0;  // o que é cc ?
+	virtual void setNumeroOcupantes(int newValorOcupantes)=0;
+
 };
 
 

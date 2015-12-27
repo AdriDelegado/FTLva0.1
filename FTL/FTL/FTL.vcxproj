@@ -27,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="beliche.cpp" />
+    <ClCompile Include="comando.cpp" />
     <ClCompile Include="consola.cpp" />
     <ClCompile Include="controloEscudo.cpp" />
     <ClCompile Include="interface.cpp" />
