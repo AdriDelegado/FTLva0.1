@@ -19,6 +19,7 @@ int main(){
 
 void menuPrincipal(){
 	Consola c;
+	c.setTextSize(30, 30);
 	c.setTextColor(c.AZUL_CLARO);
 	c.setBackgroundColor(c.PRETO);
 	c.gotoxy(10, 10);
