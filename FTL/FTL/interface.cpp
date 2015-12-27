@@ -9,31 +9,31 @@ void userInterface::novoJogo(){
 	int flag=0;
 	nave spaceShip;		//aqui ja tem as salas
 	c.setBackgroundColor(c.PRETO);
-	c.setTextSize(8, 8);
+	//c.setTextSize(10, 10);
 	c.setScreenSize(600, 600);
 	desenhaInterfaceInit(c);
-	this->x = 0;
-	this->y = 0;
-	while (1)
-	{
-		limpaComando();
-		escreveComando();
-		string comando;
+	//this->x = 0;
+	//this->y = 0;
+	//while (1)
+	//{
+	//	/*limpaComando();
+	//	escreveComando();
+	//	string comando;
 
-		getline(cin, comando);
+	//	getline(cin, comando);*/
 
-		/*separaComando(comando, comObj);
-		trataComando(comObj, Mapa, pop);*/
+	//	/*separaComando(comando, comObj);
+	//	trataComando(comObj, Mapa, pop);*/
 
-		desenhaSpaceShip(spaceShip);
+	////	desenhaSpaceShip(spaceShip);
 
-		//if(flag==0)
-		//PlaySound(TEXT("..\\SOUNDS\\GOT.WAV"), NULL, SND_ASYNC | SND_LOOP);
+	//	//if(flag==0)
+	//	//PlaySound(TEXT("..\\SOUNDS\\GOT.WAV"), NULL, SND_ASYNC | SND_LOOP);
 
 
-		flag++;
+	//	flag++;
 
-	}
+	//}
 }
 
 void userInterface::desenhaInterfaceInit(Consola c)
