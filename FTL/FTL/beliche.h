@@ -12,7 +12,7 @@ class beliche : public sala
 {
 	int numeroBeliches;
 public:
-	beliche(int nBeliches);			//contrutor
+	beliche(int nBeliches, int id);			//contrutor
 	beliche();						//construtor por defeito
 	~beliche(void);					//destrutor
 
@@ -28,15 +28,15 @@ public:
 	virtual int getNumeroOcupantes() = 0;
 
 	//------SET---------
-	int setNumeroBeliches();
+	void setNumeroBeliches(int newValorBeliches);
 
-	virtual int setId();
-	virtual int setOxigenio();
-	virtual int setIntegridade();
-	virtual bool setBrecha();
-	virtual bool setFogo();
-	virtual bool setCc();  // o que é cc ?
-	virtual int setNumeroOcupantes();
+	virtual void setId(int id) = 0;
+	virtual void setOxigenio(int newOxigenio) = 0;
+	virtual void setIntegridade(int newIntegridade) = 0;
+	virtual void setBrecha(bool newValorBrecha) = 0;
+	virtual void setFogo(bool newValorFogo) = 0;
+	virtual void setCc(bool newValorCC) = 0;  // o que é cc ?
+	virtual void setNumeroOcupantes(int newValorOcupantes) = 0;
 };
 
 

@@ -9,7 +9,7 @@ using namespace std;
 
 class sala
 {
-		int id;
+	int id;
 	int oxigenio;
 	int integridade;
 	bool brecha;
@@ -19,6 +19,7 @@ class sala
 
 	
 public:
+	sala(int id);
 	sala();
 	~sala(void);
 
@@ -32,13 +33,13 @@ public:
 	int getNumeroOcupantes();
 	
 	//------SET---------
-	int setId();
-	int setOxigenio();
-	int setIntegridade();
-	bool setBrecha();
-	bool setFogo();
-	bool setCc();  // o que é cc ?
-	int setNumeroOcupantes();
+	void setId(int id);
+	void setOxigenio(int newOxigenio);
+	void setIntegridade(int newIntegridade);
+	void setBrecha(bool newValorBrecha);
+	void setFogo(bool newValorFogo);
+	void setCc(bool newValorCC);  // o que é cc ?
+	void setNumeroOcupantes(int newValorOcupantes);
 };
 
 

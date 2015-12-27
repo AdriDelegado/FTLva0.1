@@ -13,7 +13,8 @@ class nave
 {
 	sala salas[12];
 	tripulacao *numTripulantes;
-	
+public:
+	void desenhaNave(); //??
 
 };
 
