@@ -40,7 +40,7 @@ void menuPrincipal(){
 				// ABRE OS SETTINGS
 			}
 			if (y == 12){
-				c.clrscr();
+				c.clrscr();			//limpa o ecra
 				creditos();
 			}
 
@@ -53,7 +53,7 @@ void menuPrincipal(){
 
 		if (tecla == c.CIMA){
 			y--;
-			if (y == 9){				// verfica a posiçaão  ">" para qeu nao exeda o limite desejado
+			if (y == 9){				// verfica a posiçaão do ">" para qeu nao exeda o limite desejado
 				y = 12;
 				c.gotoxy(x, y);
 				cout << '>';
@@ -65,7 +65,7 @@ void menuPrincipal(){
 		}
 		if (tecla == c.BAIXO){
 			y++;
-			if (y == 13){				// verfica a posiçaão  ">" para qeu nao exeda o limite desejado
+			if (y == 13){				// verfica a posiçaão do ">" para qeu nao exeda o limite desejado
 				y = 10;
 				c.gotoxy(x, y);
 				cout << '>';
