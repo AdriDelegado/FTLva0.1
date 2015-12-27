@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="beliche.h" />
+    <ClInclude Include="comando.h" />
     <ClInclude Include="consola.h" />
     <ClInclude Include="controloEscudo.h" />
     <ClInclude Include="interface.h" />

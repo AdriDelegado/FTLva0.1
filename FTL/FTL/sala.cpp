@@ -6,7 +6,7 @@ sala::sala(int id){
 	this->integridade=100;
 	this->brecha = false;
 	this->fogo = false;
-	this->cc = false;  // o que é cc ?
+	this->curtoCircuito = false;  // o que é cc ?
 	this->numeroOcupantes = 0;
 }
 
@@ -33,8 +33,8 @@ bool sala::getBrecha(){
 bool sala::getFogo(){
 	return this->fogo;
 }
-bool sala::getCc(){  // o que é cc ?
-	return this->cc;
+bool sala::getCurtoCircuito(){  // o que é cc ?
+	return this->curtoCircuito;
 }
 
 
@@ -57,6 +57,6 @@ void sala::setBrecha(bool newValorBrecha){
 void sala::setFogo(bool newValorFogo){
 	this->fogo = newValorFogo;
 }
-void sala::setCc(bool newValorCC){  // o que é cc ?
-	this->cc = newValorCC;
+void sala::setCurtoCircuito(bool newValorCurtoCircuito){  // o que é cc ?
+	this->curtoCircuito = newValorCurtoCircuito;
 }

@@ -15,7 +15,7 @@ class sala
 	int integridade;
 	bool brecha;
 	bool fogo;
-	bool cc;  // o que é cc ?
+	bool curtoCircuito;  // o que é cc ?
 	int numeroOcupantes;
 
 	
@@ -30,7 +30,7 @@ public:
 	int getIntegridade();
 	bool getBrecha();
 	bool getFogo();
-	bool getCc();  // o que é cc ?
+	bool getCurtoCircuito();  // o que é cc ?
 	int getNumeroOcupantes();
 	
 	//------SET---------
@@ -39,7 +39,7 @@ public:
 	void setIntegridade(int newIntegridade);
 	void setBrecha(bool newValorBrecha);
 	void setFogo(bool newValorFogo);
-	void setCc(bool newValorCC);  // o que é cc ?
+	void setCurtoCircuito(bool newValorCC);  // o que é cc ?
 	void setNumeroOcupantes(int newValorOcupantes);
 };
 
