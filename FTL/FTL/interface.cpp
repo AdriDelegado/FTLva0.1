@@ -42,22 +42,22 @@ void userInterface::desenhaInterfaceInit(Consola c)
 	c.gotoxy(0, 0);
 
 	//mapa
-	c.drawLine(10, 30, 390, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(10, 30, 10, 400, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(10, 400, 390, 400, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(390, 400, 390, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	c.drawLine(10, 30, 750, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	c.drawLine(10, 30, 10, 650, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(10, 400, 390, 400, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(390, 400, 390, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
 
 	//comandos
-	c.drawLine(10, 420, 390, 420, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(390, 420, 390, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(10, 470, 390, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(10, 420, 10, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(10, 420, 390, 420, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(390, 420, 390, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(10, 470, 390, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(10, 420, 10, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
 
-	//informações
-	c.drawLine(420, 30, 710, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(710, 30, 710, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(420, 30, 420, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
-	c.drawLine(420, 470, 710, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	////informações
+	//c.drawLine(420, 30, 710, 30, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(710, 30, 710, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(420, 30, 420, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
+	//c.drawLine(420, 470, 710, 470, RGB(255, 255, 255)); //int x1, int y1, int x2, int y2
 
 }
 //void desenhaFundo(int x, int y);
