@@ -31,6 +31,7 @@
     <ClCompile Include="comando.cpp" />
     <ClCompile Include="consola.cpp" />
     <ClCompile Include="controloEscudo.cpp" />
+    <ClCompile Include="desenhomapa.cpp" />
     <ClCompile Include="interface.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maquinas.cpp" />

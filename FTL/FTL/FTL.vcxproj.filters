@@ -98,5 +98,8 @@
     <ClCompile Include="comando.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="desenhomapa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
