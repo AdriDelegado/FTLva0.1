@@ -1,10 +1,23 @@
-﻿Build started 27/12/2015 20:13:36.
-     1>Project "C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\FTL\FTL.vcxproj" on node 2 (Build target(s)).
+﻿Build started 28-Dec-15 3:05:33 AM.
+     1>Project "C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\FTL\FTL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt beliche.cpp comando.cpp consola.cpp controloEscudo.cpp interface.cpp main.cpp maquinas.cpp nave.cpp ponte.cpp propulsor.cpp sala.cpp suporteVida.cpp tripulacao.cpp
+         tripulacao.cpp
+         suporteVida.cpp
+         sala.cpp
+         propulsor.cpp
+         ponte.cpp
+         nave.cpp
+         maquinas.cpp
          main.cpp
+         interface.cpp
+         controloEscudo.cpp
+         consola.cpp
+         comando.cpp
+         beliche.cpp
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\Debug\FTL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\Debug\FTL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\Debug\FTL.lib" /MACHINE:X86 Debug\beliche.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\Debug\FTL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\Debug\FTL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\Debug\FTL.lib" /MACHINE:X86 Debug\beliche.obj
          Debug\comando.obj
          Debug\consola.obj
          Debug\controloEscudo.obj
@@ -17,9 +30,69 @@
          Debug\sala.obj
          Debug\suporteVida.obj
          Debug\tripulacao.obj
-         FTL.vcxproj -> C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\Debug\FTL.exe
-     1>Done Building Project "C:\Users\adrie\OneDrive\Documents\POO\FTLva0.1\FTL\FTL\FTL.vcxproj" (Build target(s)).
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall beliche::getId(void)" (?getId@beliche@@UAEHXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall beliche::getOxigenio(void)" (?getOxigenio@beliche@@UAEHXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall beliche::getIntegridade(void)" (?getIntegridade@beliche@@UAEHXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall beliche::getBrecha(void)" (?getBrecha@beliche@@UAE_NXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall beliche::getFogo(void)" (?getFogo@beliche@@UAE_NXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall beliche::getNumeroOcupantes(void)" (?getNumeroOcupantes@beliche@@UAEHXZ)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setId(int)" (?setId@beliche@@UAEXH@Z)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setOxigenio(int)" (?setOxigenio@beliche@@UAEXH@Z)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setIntegridade(int)" (?setIntegridade@beliche@@UAEXH@Z)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setBrecha(bool)" (?setBrecha@beliche@@UAEX_N@Z)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setFogo(bool)" (?setFogo@beliche@@UAEX_N@Z)
+     1>beliche.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall beliche::setNumeroOcupantes(int)" (?setNumeroOcupantes@beliche@@UAEXH@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall controloEscudo::getId(void)" (?getId@controloEscudo@@UAEHXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall controloEscudo::getOxigenio(void)" (?getOxigenio@controloEscudo@@UAEHXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall controloEscudo::getIntegridade(void)" (?getIntegridade@controloEscudo@@UAEHXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall controloEscudo::getBrecha(void)" (?getBrecha@controloEscudo@@UAE_NXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall controloEscudo::getFogo(void)" (?getFogo@controloEscudo@@UAE_NXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall controloEscudo::getNumeroOcupantes(void)" (?getNumeroOcupantes@controloEscudo@@UAEHXZ)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setId(int)" (?setId@controloEscudo@@UAEXH@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setOxigenio(int)" (?setOxigenio@controloEscudo@@UAEXH@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setIntegridade(int)" (?setIntegridade@controloEscudo@@UAEXH@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setBrecha(bool)" (?setBrecha@controloEscudo@@UAEX_N@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setFogo(bool)" (?setFogo@controloEscudo@@UAEX_N@Z)
+     1>controloEscudo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall controloEscudo::setNumeroOcupantes(int)" (?setNumeroOcupantes@controloEscudo@@UAEXH@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall maquinas::getId(void)" (?getId@maquinas@@UAEHXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall maquinas::getOxigenio(void)" (?getOxigenio@maquinas@@UAEHXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall maquinas::getIntegridade(void)" (?getIntegridade@maquinas@@UAEHXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall maquinas::getBrecha(void)" (?getBrecha@maquinas@@UAE_NXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall maquinas::getFogo(void)" (?getFogo@maquinas@@UAE_NXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall maquinas::getNumeroOcupantes(void)" (?getNumeroOcupantes@maquinas@@UAEHXZ)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setId(int)" (?setId@maquinas@@UAEXH@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setOxigenio(int)" (?setOxigenio@maquinas@@UAEXH@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setIntegridade(int)" (?setIntegridade@maquinas@@UAEXH@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setBrecha(bool)" (?setBrecha@maquinas@@UAEX_N@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setFogo(bool)" (?setFogo@maquinas@@UAEX_N@Z)
+     1>maquinas.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall maquinas::setNumeroOcupantes(int)" (?setNumeroOcupantes@maquinas@@UAEXH@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall propulsor::getId(void)" (?getId@propulsor@@UAEHXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall propulsor::getOxigenio(void)" (?getOxigenio@propulsor@@UAEHXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall propulsor::getIntegridade(void)" (?getIntegridade@propulsor@@UAEHXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall propulsor::getBrecha(void)" (?getBrecha@propulsor@@UAE_NXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall propulsor::getFogo(void)" (?getFogo@propulsor@@UAE_NXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall propulsor::getNumeroOcupantes(void)" (?getNumeroOcupantes@propulsor@@UAEHXZ)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setId(int)" (?setId@propulsor@@UAEXH@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setOxigenio(int)" (?setOxigenio@propulsor@@UAEXH@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setIntegridade(int)" (?setIntegridade@propulsor@@UAEXH@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setBrecha(bool)" (?setBrecha@propulsor@@UAEX_N@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setFogo(bool)" (?setFogo@propulsor@@UAEX_N@Z)
+     1>propulsor.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall propulsor::setNumeroOcupantes(int)" (?setNumeroOcupantes@propulsor@@UAEXH@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall suporteVida::getId(void)" (?getId@suporteVida@@UAEHXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall suporteVida::getOxigenio(void)" (?getOxigenio@suporteVida@@UAEHXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall suporteVida::getIntegridade(void)" (?getIntegridade@suporteVida@@UAEHXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall suporteVida::getBrecha(void)" (?getBrecha@suporteVida@@UAE_NXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall suporteVida::getFogo(void)" (?getFogo@suporteVida@@UAE_NXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall suporteVida::getNumeroOcupantes(void)" (?getNumeroOcupantes@suporteVida@@UAEHXZ)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setId(int)" (?setId@suporteVida@@UAEXH@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setOxigenio(int)" (?setOxigenio@suporteVida@@UAEXH@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setIntegridade(int)" (?setIntegridade@suporteVida@@UAEXH@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setBrecha(bool)" (?setBrecha@suporteVida@@UAEX_N@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setFogo(bool)" (?setFogo@suporteVida@@UAEX_N@Z)
+     1>suporteVida.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall suporteVida::setNumeroOcupantes(int)" (?setNumeroOcupantes@suporteVida@@UAEXH@Z)
+     1>C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\Debug\FTL.exe : fatal error LNK1120: 60 unresolved externals
+     1>Done Building Project "C:\Users\Nuno\Desktop\TrabPOO\FTLva0.1\FTL\FTL\FTL.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.64
+Time Elapsed 00:00:07.39
