@@ -15,6 +15,7 @@
     <ClInclude Include="comando.h" />
     <ClInclude Include="consola.h" />
     <ClInclude Include="controloEscudo.h" />
+    <ClInclude Include="desenhomapa.h" />
     <ClInclude Include="interface.h" />
     <ClInclude Include="maquinas.h" />
     <ClInclude Include="membroTripulacao.h" />

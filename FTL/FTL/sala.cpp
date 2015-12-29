@@ -1,5 +1,6 @@
 #include "sala.h"
 
+
 sala::sala(int id){
 	this->id=id;
 	this->oxigenio=100;
@@ -13,6 +14,7 @@ sala::sala(int id){
 sala::sala(){}
 
 sala::~sala(void){}
+
 
 //------GET---------
 int sala::getId(){
