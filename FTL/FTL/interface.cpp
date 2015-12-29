@@ -42,34 +42,115 @@ void userInterface::desenhaInterfaceInit(Consola c)
 	//inicio da borda da nave
 	c.gotoxy(4, 2);
 	cout << (char)218;
+
 	c.gotoxy(5, 2);
-	for (int i = 5; i < 80; i++)
+	for (int i = 5; i < 64; i++)
 	{
 		c.gotoxy(i, 2);
 		cout << (char)196;
 	}
-	c.gotoxy(80, 2);
+
+	c.gotoxy(64, 2);
 	cout << (char)191;
-	for (int i = 3; i < 20; i++)
+	for (int i = 3; i < 9; i++)
 	{
 		c.gotoxy(4, i);
 		cout << (char)179;
 	}
+
+	c.gotoxy(4, 8);
+	cout << (char)192;
+
+	c.gotoxy(5, 8);
+	for (int i = 5; i < 19; i++)
+	{
+		c.gotoxy(i, 8);
+		cout << (char)196;
+	}
+	c.gotoxy(5, 14);
+	for (int i = 5; i < 19; i++)
+	{
+		c.gotoxy(i, 14);
+		cout << (char)196;
+	}
+
+	c.gotoxy(18, 8);
+	cout << (char)191;
+	c.gotoxy(18, 14);
+	cout << (char)217;
+
+	c.gotoxy(18, 9);
+	for (int i = 9; i < 14; i++)
+	{
+		c.gotoxy(18, i);
+		cout << (char)179;
+	}
+
+	c.gotoxy(4, 14);
+	for (int i = 14; i < 20; i++)
+	{
+		c.gotoxy(4, i);
+		cout << (char)179;
+	}
+	c.gotoxy(4, 14);
+	cout << (char)218;
+
 	c.gotoxy(4, 20);
 	cout << (char)192;
 	c.gotoxy(5, 20);
-	for (int i = 5; i < 80; i++)
+	for (int i = 5; i < 64; i++)
 	{
 		c.gotoxy(i, 20);
 		cout << (char)196;
 	}
-	c.gotoxy(80, 20);
+	c.gotoxy(64, 20);
 	cout << (char)217;
-	for (int i = 3; i < 20; i++)
+	for (int i = 3; i < 8; i++)
 	{
-		c.gotoxy(80, i);
+		c.gotoxy(64, i);
 		cout << (char)179;
 	}
+
+	c.gotoxy(64, 15);
+	for (int i = 15; i < 20; i++)
+	{
+		c.gotoxy(64, i);
+		cout << (char)179;
+	}
+
+	c.gotoxy(64, 14);
+	cout << (char)218;
+
+	c.gotoxy(65, 14);
+	for (int i = 65; i < 79; i++)
+	{
+		c.gotoxy(i, 14);
+		cout << (char)196;
+	}
+
+	c.gotoxy(79, 14);
+	cout << (char)217;
+
+	c.gotoxy(79, 8);
+	for (int i = 8; i < 14; i++)
+	{
+		c.gotoxy(79, i);
+		cout << (char)179;
+	}
+
+	c.gotoxy(79, 8);
+	cout << (char)191;
+
+	c.gotoxy(65, 8);
+	for (int i = 65; i < 79; i++)
+	{
+		c.gotoxy(i, 8);
+		cout << (char)196;
+	}
+
+	c.gotoxy(64, 8);
+	cout << (char)192;
+
 	//fim das bordas do mapa pra nave
 
 	//inicio da borda de status
@@ -139,8 +220,6 @@ void userInterface::desenhaInterfaceInit(Consola c)
 		cout << (char)179;
 	}
 	//fim da borda de comandos
-
-	//inicio desenho das salas
 
 	//salas da primeira linha
 	c.gotoxy(5, 3);
@@ -286,8 +365,49 @@ void userInterface::desenhaInterfaceInit(Consola c)
 		}
 	}
 
+	//portas horizontais
+	c.gotoxy(19, 5);
+	cout << (char)205;
+	c.gotoxy(34, 5);
+	cout << (char)205;
+	c.gotoxy(49, 5);
+	cout << (char)205;
+	c.gotoxy(19, 17);
+	cout << (char)205;
+	c.gotoxy(34, 17);
+	cout << (char)205;
+	c.gotoxy(49, 17);
+	cout << (char)205;
+	c.gotoxy(34, 11);
+	cout << (char)205;
+	c.gotoxy(49, 11);
+	cout << (char)205;
+	c.gotoxy(64, 11);
+	cout << (char)205;
 
-	//fim desenho salas
+	//portas verticais
+	c.gotoxy(27, 8);
+	cout << (char)186;
+	c.gotoxy(42, 8);
+	cout << (char)186;
+	c.gotoxy(57, 8);
+	cout << (char)186;
+	c.gotoxy(27, 14);
+	cout << (char)186;
+	c.gotoxy(42, 14);
+	cout << (char)186;
+	c.gotoxy(57, 14);
+	cout << (char)186;
+
+	//titulo das janelas
+	c.gotoxy(30, 1);
+	cout << "NAVE ESPACIAL";
+
+	c.gotoxy(94, 1);
+	cout << "INFORMACAO";
+
+	c.gotoxy(29, 22);
+	cout << "LINHA DE COMANDOS";
 	
 
 }
