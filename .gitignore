@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+FTL/Debug/FTL.exe
+FTL/FTL.sdf
+*.suo
+FTL/Debug/FTL.exe
+*.ilk
